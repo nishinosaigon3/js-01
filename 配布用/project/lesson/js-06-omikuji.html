@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おみくじ</title>
+</head>
+<body>
+
+<script>
+// 実現したい処理:
+// ページを開く
+// 大吉、中吉、小吉、吉、凶をランダムに選ぶ
+// １～５までの数字をランダムに作る
+// 数字に応じて結果をconsole.logに出力
+// おみくじの結果がconsole.logに表示される。
+
+const num = Math.ceil(Math.random() * 5);
+if(num == 1){
+    console.log("大吉")
+} else if (num == 2){
+    console.log("中吉")
+} else if (num == 3){
+    console.log("小吉")
+} else if (num == 4){
+    console.log("吉")
+} else if (num == 5){
+    console.log("凶")
+} 
+
+</script>
+</body>
+</html>
